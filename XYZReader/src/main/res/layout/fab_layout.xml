@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.FloatingActionButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/share_fab"
+    android:layout_height="@dimen/fab_size_normal"
+    android:layout_width="@dimen/fab_size_normal"
+    android:src="@drawable/fab_plus"
+    app:fabSize="normal"
+    app:elevation="6dp"
+    app:pressedTranslationZ="12dp"
+    app:borderWidth="0dp"
+    android:layout_gravity="bottom|right|end"
+    android:layout_marginRight="@dimen/fab_margin"
+    android:layout_marginBottom="@dimen/fab_margin" />
